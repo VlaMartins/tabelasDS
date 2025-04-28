@@ -13,6 +13,21 @@ header li{
     margin-right: 1em;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: aquamarine;
+}
+
+
+/* estilização das tabelas  */
+
 table {
     border-collapse: collapse;
     width: auto;
@@ -23,7 +38,7 @@ table {
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #d4cdcd;
 }
 
 th, td {
@@ -31,7 +46,3 @@ th, td {
     padding: 8px 12px;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
